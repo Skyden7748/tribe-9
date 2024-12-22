@@ -1,0 +1,109 @@
+.about-main
+{
+    height: 100vh;
+    
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    background-color:rgb(17, 18, 19);
+    background-image:
+    radial-gradient(at  100%   , hsla(261, 33%, 10%, 0.5) 0px, transparent 50%),
+    radial-gradient(at 99% 0%  , hsla(266, 61%, 12%, 0) 0px, transparent 50%);
+    position: relative;
+    border-bottom: 1px solid rgba(128, 128, 128,0.1);
+}
+
+.about-main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin: 0 auto;
+    height: 70%;
+    /* border: 1px solid red; */
+}
+.about-main-left{
+  width: 50%;
+  /* border: 1px solid red;   */
+}
+.about-main-left h1{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+}
+.about-main-left h2{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+}
+.about-main-right{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgb(67, 67, 67);
+    min-height: 400px;
+    background-image:
+        url(../assets/about1.png ) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.about-main-two{
+    height: 100vh;
+    
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    background-color:rgb(17, 18, 19);
+    background-image:
+    radial-gradient(at  100%   , hsla(261, 33%, 10%, 0.5) 0px, transparent 50%),
+    radial-gradient(at 99% 0%  , hsla(266, 61%, 12%, 0) 0px, transparent 50%);
+    position: relative;
+    border-bottom: 1px solid rgba(128, 128, 128,0.1);
+}
+.about-content-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin: 0 auto;
+    height: 70%;
+    /* border: 1px solid red; */
+}
+.about-content-two-left{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgb(67, 67, 67);
+    min-height: 100%;
+   
+}
+.about-content-two-right{
+    width: 40%;
+    /* border: 1px solid red;   */
+}
+.about-content-two-right h1{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+}
+.about-content-two-right h2{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+}
+.about-content-two-right p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+}

@@ -1,0 +1,51 @@
+.navbar
+{
+    /* height: 40px; */
+    width: 100%;
+
+    
+    
+    
+    justify-content: space-between;
+    /* padding: 2rem; */
+    padding-top: 2rem;
+    position: fixed;
+    z-index: 10;
+    margin: 0 auto;
+}
+.nav-sub{
+    width: 1370px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 0.2px solid rgb(21, 21, 21) ; */
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(31, 32, 34,0.0); /* Transparent background */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  */
+  backdrop-filter: blur(10px); /* Blur the background behind the div */
+  -webkit-backdrop-filter: blur(10px);
+}
+.logo img 
+{
+    height: 35px;
+    padding: 5px;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 6px;
+}
+.menu
+{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 0 1rem;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+}

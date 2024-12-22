@@ -1,0 +1,82 @@
+/* Base styles for the background container */
+.background-container {
+    height: 96vh;
+    max-height: 40rem;
+    background: linear-gradient(to bottom, white, #f5f5f5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    .background-container {
+      background: linear-gradient(to bottom, #121212, #1f1f1f);
+    }
+  }
+  
+  /* Collision detection container */
+  .collision-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    pointer-events: none;
+    box-shadow: 0 0 24px rgba(34, 42, 53, 0.06),
+      0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(34, 42, 53, 0.04),
+      0 0 4px rgba(34, 42, 53, 0.08), 0 16px 68px rgba(47, 48, 55, 0.05),
+      0 1px 0 rgba(255, 255, 255, 0.1) inset;
+  }
+  
+  /* Beam styles */
+  .beam {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 150px;
+    background: linear-gradient(to top, #6366f1, #a855f7, transparent);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  
+  /* Variants for beam heights */
+  .tall-beam {
+    height: 200px;
+  }
+  
+  .wide-beam {
+    height: 250px;
+  }
+  
+  /* Explosion styles */
+  .explosion {
+    position: absolute;
+    z-index: 50;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .blur-effect {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, transparent, #6366f1, transparent);
+    height: 2px;
+    width: 100%;
+    filter: blur(6px);
+    opacity: 0.8;
+    border-radius: 50%;
+  }
+  
+  /* Particles for explosion effect */
+  .explosion span {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: linear-gradient(to bottom, #6366f1, #a855f7);
+    border-radius: 50%;
+  }
+  
