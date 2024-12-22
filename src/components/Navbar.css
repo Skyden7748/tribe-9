@@ -38,13 +38,15 @@
 {
     display: flex;
 }
-.menu li{
+
+.navLink{
     list-style: none;
     margin: 0 1rem;
     color: whitesmoke;
     font-size: 1.4rem;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 .menu ul{
     display: flex;
