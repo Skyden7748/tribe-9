@@ -1,0 +1,235 @@
+.contactUsMainDiv {
+    background-color:rgb(17, 18, 19);
+    height: fit-content;
+}
+
+
+.contactUsHeadingDiv {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUsSubHeadingDiv {
+    width: 30rem;
+    text-align: center;
+} 
+
+.contactUsSubHeadingDiv h1 {
+    font-size: 4.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.721);
+}
+
+.contactUsSubHeadingDiv p {
+    font-size: 1.1em;
+    font-family: poppins;
+    font-weight: 400;
+    color: azure;
+    line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    .contactUsSubHeadingDiv {
+      width: 23rem;
+    }
+    .contactUsSubHeadingDiv h1 {
+        font-size: 3.5em;
+    }
+    .contactUsSubHeadingDiv p {
+        font-size: 1em;
+        
+    }
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+/* .form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+
+.form .title {
+  color: royalblue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+} */
+    
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .contactGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.contactCard {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.contactSection {
+  margin-bottom: 1.5rem;
+}
+
+.contactSection h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-family: poppins;
+}
+
+
+.contactInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.contactInfo svg {
+  width: 20px;
+  height: 20px;
+  color: #22d3ee;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.contactInfo a,
+.contactInfo p {
+  color: #9e9e9e;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.contactInfo a:hover {
+  color: white;
+}
+
+.formContainer h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 0.8rem;
+}
+
+.formInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #22d3ee;
+  box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.2);
+}
+
+/* .formContainer {
+  padding: 2rem;
+} */
+
+.formContainer h1 {
+    color: #d1d5db;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.formTextarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitButton {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #1f1f1f;
+}
+.submitButton:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
