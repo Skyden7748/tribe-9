@@ -1,20 +1,21 @@
-import { useState } from 'react'
-import Home from './pages/Home.jsx'
-import Dum from './pages/Dum.jsx'
-import Navbar from './components/Navbar.jsx'
-import About from './pages/About.jsx'
+import { Route, Routes } from "react-router-dom";
+import ContactUs from "./components/ContactUs/ContactUs.jsx";
+import Navbar from "./components/Navbar.jsx";
+import About from "./pages/About.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Navbar/>
-      <Home />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<ContactUs />} />
+      </Routes>
       {/* <Dum /> */}
-      <About/>
+      <About />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

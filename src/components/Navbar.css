@@ -22,7 +22,7 @@
     /* border: 0.2px solid rgb(21, 21, 21) ; */
     padding: 1rem;
     border-radius: 10px;
-    background: rgba(31, 32, 34,0.0); /* Transparent background */
+    background: rgba(31, 32, 34,0.0);  /* Transparent background */
   /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  */
   backdrop-filter: blur(10px); /* Blur the background behind the div */
   -webkit-backdrop-filter: blur(10px);
@@ -38,13 +38,15 @@
 {
     display: flex;
 }
-.menu li{
+
+.navLink{
     list-style: none;
     margin: 0 1rem;
     color: whitesmoke;
     font-size: 1.4rem;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
 }
 .menu ul{
     display: flex;
